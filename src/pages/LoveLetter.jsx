@@ -5,7 +5,7 @@ const LoveLetter = () => {
         {
             id: 1,
             name: "Rexon",
-            msg: "Yo you done reading allat? 😭🙏🏻 enough yapping send me some— All i want to say is ilysm bbg😔🎀",
+            msg: "Wish you the happiest birthday",
         },
         {
             id: 2,
@@ -30,17 +30,17 @@ const LoveLetter = () => {
         {
             id: 6,
             name: "Rexon",
-            msg: "Ever since our first date on 15 July 2025, my heart knew where it wanted to stay— with you, in every soft moment, every smile, every quiet piece of forever.",
+            msg: "Ever since our we met, my heart knew where it wanted to stay— with you, in every soft moment, every smile, every quiet piece of forever.",
         },
         {
             id: 7,
             name: "Rexon",
-            msg: "8 June 2025 was just a date, but you turned it into a memory my heart refuses to forget. Since then, every moment with you has felt softer, brighter, and filled with a kind of peace only you bring.",
+            msg: " but you turned it into a memory my heart refuses to forget. Since then, every moment with you has felt softer, brighter, and filled with a kind of peace only you bring.",
         },
         {
             id: 8,
             name: "Rexon",
-            msg: "Since our first conversation on 8 June 2025, you’ve been the quiet spark that changed my world, turning ordinary days into moments that feel beautifully meant to be.",
+            msg: "Since our first conversation, you’ve been the quiet spark that changed my world, turning ordinary days into moments that feel beautifully meant to be.",
         },
     ];
     const [openEnvelope, setOpenEnvelope] = useState(false);
@@ -113,35 +113,35 @@ const LoveLetter = () => {
 
 
     return (
-        <main className='bg-[#8b0000] h-screen w-full overflow-hidden'>
-            <section className="cssletter z-10">
+        <main className='munna bg-[#8b0000] h-screen w-full overflow-hidden'>
+            <section className="munna cssletter z-10">
                 <div className={`envelope ${openEnvelope ? "active" : ""}`}>
                     <button
-                        className="heart"
+                        className="munna heart"
                         id="openEnvelope"
                         aria-label="Open Envelope"
                         onClick={() => setOpenEnvelope(true)}
                     >
-                        <span className="heart-text">Open</span>
+                        <span className="munna heart-text">Open</span>
                     </button>
-                    <div className="envelope-flap text-black relative">
-                        <div className='absolute left-1/2 top-[20%] -translate-x-1/2 flex items-center justify-center flex-col md:gap-y-2'>
-                            <span className='font-sriracha md:text-2xl text-lg'>Envelope Of Love</span>
-                            <span className='font-dancingScript md:text-3xl text-xl'>Dear Ahona</span>
+                    <div className="munna envelope-flap text-black relative">
+                        <div className='munna absolute left-1/2 top-[20%] -translate-x-1/2 flex items-center justify-center flex-col md:gap-y-2'>
+                            <span className='munna font-sriracha md:text-2xl text-lg'>Envelope Of Love</span>
+                            <span className='munna font-dancingScript md:text-3xl text-xl'>Dear Trisha</span>
                         </div>
                     </div>
-                    <div className="envelope-folds">
-                        <div className="envelope-left"></div>
-                        <div className="envelope-right"></div>
-                        <div className="envelope-bottom"></div>
+                    <div className="munna envelope-folds">
+                        <div className="munna envelope-left"></div>
+                        <div className="munna envelope-right"></div>
+                        <div className="munna envelope-bottom"></div>
                     </div>
                 </div>
 
-                <div className="letters" ref={lettersContainerRef}>
+                <div className="munna letters" ref={lettersContainerRef}>
                     {letters.map((letter) => (
                         <blockquote
                             key={letter.id}
-                            className="letter center -translate-x-1/2 -translate-y-1/2"
+                            className="munna letter center -translate-x-1/2 -translate-y-1/2"
                             id={letter.id}
                             tabIndex={0}
                             style={{
@@ -155,7 +155,7 @@ const LoveLetter = () => {
                             onTouchStart={handleMouseDown}
                         >
                             <button
-                                className="closeLetter"
+                                className="munna closeLetter"
                                 title={`Close ${letter.name}'s letter`}
                                 onClick={() => handleCloseLetter(letter.id)}
                             >
@@ -170,11 +170,11 @@ const LoveLetter = () => {
 
 
             {/* ------------------ Heart Beating  */}
-            <div className="heart-container absolute top-[20%] md:left-20 left-6">
+            <div className="munna heart-container absolute top-[20%] md:left-20 left-6">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
-                    className="heartBeating md:w-[150px] w-[110px] h-[200px]"
+                    className="munna heartBeating md:w-[150px] w-[110px] h-[200px]"
                 >
                     <path
                         d="M471.7 73.6c-54.5-46.4-136-38.3-186.4 15.8L256 120.6l-29.3-31.2C176.3 35.3 94.8 27.2 40.3 73.6-18 125.4-13.3 221 43 273.7l187.3 177.6a24 24 0 0032.4 0L469 273.7c56.3-52.8 61-148.3 2.7-200.1z"
@@ -182,11 +182,11 @@ const LoveLetter = () => {
                     />
                 </svg>
             </div>
-            <div className="heart-container absolute bottom-[10%] md:right-20 right-6 rotate-180">
+            <div className="munna heart-container absolute bottom-[10%] md:right-20 right-6 rotate-180">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
-                    className="heartBeating md:w-[150px] w-[110px] h-[200px]"
+                    className="munna heartBeating md:w-[150px] w-[110px] h-[200px]"
                 >
                     <path
                         d="M471.7 73.6c-54.5-46.4-136-38.3-186.4 15.8L256 120.6l-29.3-31.2C176.3 35.3 94.8 27.2 40.3 73.6-18 125.4-13.3 221 43 273.7l187.3 177.6a24 24 0 0032.4 0L469 273.7c56.3-52.8 61-148.3 2.7-200.1z"
@@ -195,34 +195,34 @@ const LoveLetter = () => {
                 </svg>
             </div>
             {/* ------------------ Heart Falling  */}
-            <div className="MUNNA snowflakes z-0">
-                <div className="MUNNA snowflake">
+            <div className="munna snowflakes z-0">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />  </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
-                <div className="MUNNA snowflake">
+                <div className="munna snowflake">
                     <img src="https://i.pinimg.com/originals/96/c7/8b/96c78bc8ab873498b763798793d64f62.png" width="25" />
                 </div>
             </div>

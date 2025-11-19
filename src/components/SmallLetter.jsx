@@ -78,7 +78,7 @@ const SmallLetter = () => {
         >
             x
         </div>
-        <p>Yo brocaccho,<br /><br />Heard ur bdy is coming so i just wanna tell ya that my brocum is doing hard job just to surprise ur ass. So happy birthday and always bless my bro with surprise flash and marry him asap wish y'all best of luck<br /><br />Rajib</p>
+        <p>Yo brocaccho,<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br /><br />Rajib</p>
     </div>
 
     {/* --- NEW SVG DIARY PAGE DECORATION --- */}
