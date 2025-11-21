@@ -1,16 +1,48 @@
-# React + Vite
+# 🎉 Birthday Wishing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive **Happy Birthday website** built with modern animations and smooth page transitions. It’s designed to create a personalized and memorable birthday experience for your friends or loved ones.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- **SVG Loading Animation:** A custom animated loader for a premium first impression.  
+- **Smooth Page Transitions:** Fluid navigation between all pages for a polished feel.  
+- **3 Dedicated Pages:**
+  - **Homepage:** Add the person's image and name with elegant animations.
+  - **Message Page:** A small heartfelt letter revealed after clicking **“From (Your Name)”**.
+  - **3D Letter Page:** Opens a fully animated **3D book-style letter** after clicking **“Open this (Friend’s Name)”**.
+- **Fully Responsive:** Works perfectly on mobile and desktop.
+- **Simple to Customize:** Change text, images, and names easily.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Munna-Scriptz/Happy-Birthday.git
+````
+
+### 2. Open the Project
+
+Navigate to the folder on your computer.
+
+### 3. Run the Website
+
+Run `npm run dev` in your Terminal — you’re good to go.
+
+---
+
+## 🎨 Why I Built This
+
+I wanted to create a **unique birthday experience** using animations, transitions, and interactive UI elements — something fun, personal, and visually satisfying.
+Feel free to use it, customize it, or improve it in your own style.
+
+Made with ❤️ by **Munna-Scriptz**
+
+---
+
+## 📬 Want to Connect?
+
+If you use the project or want to collaborate, reach out anytime!
