@@ -78,7 +78,11 @@ const SmallLetter = () => {
         >
             x
         </div>
-        <p<br /><br />Happy Birthday to my one and only meenumi <br /><br /></p>
+       <p>
+  <br /><br />
+  Happy Birthday to my one and only meenumi
+  <br /><br />
+</p>
     </div>
 
     {/* --- NEW SVG DIARY PAGE DECORATION --- */}
